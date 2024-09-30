@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Shipwrecks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1a3d5c;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2c4a66;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        .shipwrecks {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .shipwrecks div {
+            width: 30%;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #1a3d5c;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        input, textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #1a3d5c;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Famous Shipwrecks Throughout History</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shipwrecks">Famous Shipwrecks</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>The Mysteries of Shipwrecks</h2>
+        <p>Shipwrecks have fascinated people for centuries, telling stories of tragedy, exploration, and discovery. Some of the most famous shipwrecks, such as the  RMS Titanic, have captivated the public’s imagination, while others like the Baron Gautsch tell how 150 civilian paggengers dead tragically from running into a minefield targeted at enemy military ships. Explore the stories behind these shipwrecks and uncover the history hidden beneath the waves.</p>
+    </section>
+
+    <section id="shipwrecks">
+        <h2>Famous Shipwrecks</h2>
+        <div class="shipwrecks">
+            <div>
+                <h3>Titanic</h3>
+                <p>The RMS Titanic was one of the largest and most luxurious ships ever built. On its maiden voyage in 1912, the Titanic struck an iceberg and sank, resulting in the loss of over 1,500 lives. It remains one of the deadliest maritime disasters in history, symbolizing human hubris and the dangers of overconfidence in technology.</p>
+            </div>
+            <div>
+                <h3>Baron Gautsch</h3>
+                <p>The Baron Gautsch, an Austro-Hungarian passenger ship, met its tragic end during World War I in 1914 when it struck a mine off the coast of Croatia. Over 300 passengers and crew perished in the disaster. Today, the wreck is a popular site for divers, providing a haunting reminder of the war’s maritime dangers.</p>
+            </div>
+            <div>
+                <h3>SS Andrea Doria</h3>
+                <p>The SS Andrea Doria was a luxurious Italian ocean liner that sank after colliding with another ship, the MS Stockholm, in 1956. Known as the "Mount Everest of diving," the wreck of the Andrea Doria is one of the most challenging deep-water dive sites in the world, claiming the lives of several divers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit.html" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Famous Shipwrecks. All rights reserved.</p>
+    </footer>
+</body>
+</html>
